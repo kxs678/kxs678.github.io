@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Merienda|Oswald');
+
+body {
+font-size: 14px;
+font-family: 'Oswald', serif;
+background-image: url("../img/tahoebw.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+nav li {
+    float: right;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a.active {
+    background-color:#A3BF46;
+    color: white;
+}
+
+nav li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+#royce {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+  padding: 10px;
+  background-color: #A3BF46;
+}
+#ustatute{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+  padding: 10px;
+  background-color: #A3BF46;
+}

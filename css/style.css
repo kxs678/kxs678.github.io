@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Merienda|Oswald');
+
+body {
+font-size: 14px;
+font-family: 'Oswald', serif;
+background-image: url("../img/tahoebw.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+nav li {
+    float: right;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #111;
+    color: white;
+}
+nav li a.active {
+    background-color:#A3BF46;
+    color: white;
+}
+main{
+  max-width: 1475px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-top: .5%;
+  padding: 10px;
+  background-color: #A3BF46;
+}
+main h1 {
+  text-align: center;
+  font-size: 200%;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 300%;
+}
+main a:link {
+  color: #A3BF46;
+}
+main a:visited {
+  color: #A3BF46;
+}
+
+section{
+  max-width: 1470px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+
+}
+/*//uclawriting/*/
+#author{
+  text-align: center;
+  font-size: 125%;
+}
+#DB{
+  width: 1040px;
+  margin: auto;
+  padding-left: 217.5px;
+  padding-right:217.5px;
+  margin-bottom: 10px;
+}
+#DB article{
+  border-top: #778899 thin groove;
+  margin: 5px;
+}
+#DB p{
+  max-width: 1000px;
+}
+
+#PM h2{
+border-bottom: #778899 thin groove;
+}
+
+#PM img{
+  border-bottom: #778899 thin groove;
+  padding-bottom: 2px;
+}
+
+/*//writingmain*/
+#royce {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 10px;
+  background-color: #A3BF46;
+}
+#ustatute{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 10px;
+  background-color: #A3BF46;
+}
+#miamilink{
+  width:100px;
+  height:100px;
+  display: inline-block;
+   text-align:center;
+}
+#overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+  width: 400px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+#UCLAwriting:hover #overlay {
+  opacity: 0.5;
+}
+
+#text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+/*//resume/*/
+#resumenav li a.active {
+    background-color:#3FB0C6;
+    color: white;
+}
+#resumemain{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-top: .5%;
+  top:-500px;
+  border: 1px solid #333;
+  padding: 10px;
+  background-color: #3FB0C6;
+  width: 960px
+}
+header{
+  background-color: rgb(255, 255, 255);
+  border-style: outset;
+  border-color: rgb(2, 75, 107);
+  border-width: medium;
+  padding: 5px 5px;
+
+
+}
+header h1{
+  font-family: 'Abril Fatface', cursive;
+font-size: 500%;
+color: rgb(1, 41, 59);
+text-align: center;
+}
+#education{
+  background-color: rgb(255, 255, 255);
+  border-style: outset;
+  border-color: rgb(2, 75, 107);
+  border-width: medium;
+  padding: 0 20px;
+  margin-top: 15px
+}
+#education h2{
+font-family: 'Abril Fatface', cursive;
+
+}
+
+#experience{
+
+  background-color: rgb(255, 255, 255);
+    border-style: outset;
+  border-color: rgb(2, 75, 107);
+  border-width: medium;
+  padding: 0 20px;
+  margin-top: 10px;
+
+}
+#experience h2{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#projects2{
+  border-style: groove;
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+    border-style: outset;
+    border-width: medium;
+  border-color: rgb(2, 75, 107);
+  padding: 0 20px;
+}
+#projects h2{
+  font-family: 'Abril Fatface', cursive;
+
+}
+#skills{
+  background-color: rgb(255, 255, 255);
+    border-style: outset;
+  border-color: rgb(2, 75, 107);
+    border-width: medium;
+  padding: 0 20px;
+  margin-top: 10px
+}
+#skills h2{
+  font-family: 'Abril Fatface', cursive;
+}
+#publications{
+  background-color: rgb(255, 255, 255);
+  border-style: outset;
+  border-color: rgb(2, 75, 107);
+  border-width: medium;
+  padding: 0 20px;
+  margin-top: 10px
+}
+#publications h2{
+  font-family: 'Abril Fatface', cursive;
+
+}
+#other {
+  background-color: rgb(255, 255, 255);
+    border-style: outset;
+  border-color: rgb(2, 75, 107);
+  border-width: medium;
+  padding: 0 20px;
+  margin-top: 10px;
+}
+#other h2{
+  font-family: 'Abril Fatface', cursive;
+
+}
+
+#resumemain a:link {
+  color: #3FB0C6;
+}
+#resumemain a:visited {
+  color: #3FB0C6;
+}
+
+/*//home/*/
+#homebody{
+  background-image: url("../img/tahoe.jpg");
+}
+#homenav li a.active {
+    background-color:#89423A;
+    color: white;
+}

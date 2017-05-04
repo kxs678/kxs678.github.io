@@ -270,3 +270,24 @@ font-family: 'Abril Fatface', cursive;
     background-color:#89423A;
     color: white;
 }
+
+#photonav li a.active {
+    background-color:#473B5F;
+    color: white;
+}
+
+#photomain img{
+  padding: 5px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #473B5F;
+}
+
+#photomain{
+  background-color: #473B5F;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 970px;
+}
